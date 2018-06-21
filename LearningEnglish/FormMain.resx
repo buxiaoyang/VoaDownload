@@ -119,19 +119,19 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripMenuItemConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="toolStripMenuItemConfig.Text" xml:space="preserve">
     <value>配置</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
+    <value>44, 21</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>关于</value>
@@ -143,7 +143,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>413, 24</value>
+    <value>413, 25</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
@@ -167,38 +167,11 @@
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 298</value>
   </metadata>
-  <data name="toolStripLabelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 18</value>
-  </data>
-  <data name="toolStripLabelTitle.Text" xml:space="preserve">
-    <value>状态：</value>
-  </data>
-  <data name="toolStripStatus.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 18</value>
-  </data>
-  <data name="toolStripStatus.Text" xml:space="preserve">
-    <value>就绪</value>
-  </data>
-  <data name="toolStripStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="toolStripStatusLabelTitleProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 18</value>
-  </data>
-  <data name="toolStripStatusLabelTitleProcess.Text" xml:space="preserve">
-    <value>进度：</value>
-  </data>
-  <data name="toolStripProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 17</value>
-  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 298</value>
+    <value>0, 270</value>
   </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>413, 23</value>
+    <value>413, 26</value>
   </data>
   <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -218,11 +191,143 @@
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="toolStripLabelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="toolStripLabelTitle.Text" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+  <data name="toolStripStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="toolStripStatus.Text" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="toolStripStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripStatusLabelTitleProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="toolStripStatusLabelTitleProcess.Text" xml:space="preserve">
+    <value>进度：</value>
+  </data>
+  <data name="toolStripProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelDownload.Name" xml:space="preserve">
+    <value>buttonCancelDownload</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelDownload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelDownload.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelDownload.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonFresh.Name" xml:space="preserve">
+    <value>buttonFresh</value>
+  </data>
+  <data name="&gt;&gt;buttonFresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFresh.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonFresh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectAll.Name" xml:space="preserve">
+    <value>buttonSelectAll</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectAll.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFirst20.Name" xml:space="preserve">
+    <value>buttonSelectFirst20</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFirst20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFirst20.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectFirst20.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonDownload.Name" xml:space="preserve">
+    <value>buttonDownload</value>
+  </data>
+  <data name="&gt;&gt;buttonDownload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDownload.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonDownload.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectNone.Name" xml:space="preserve">
+    <value>buttonSelectNone</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectNone.Parent" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;buttonSelectNone.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panelFormMainButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 25</value>
+  </data>
+  <data name="panelFormMainButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 246</value>
+  </data>
+  <data name="panelFormMainButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panelFormMainButton.Name" xml:space="preserve">
+    <value>panelFormMainButton</value>
+  </data>
+  <data name="&gt;&gt;panelFormMainButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelFormMainButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelFormMainButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="buttonCancelDownload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 137</value>
+    <value>7, 126</value>
   </data>
   <data name="buttonCancelDownload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 64</value>
+    <value>75, 59</value>
   </data>
   <data name="buttonCancelDownload.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -246,10 +351,10 @@
     <value>0</value>
   </data>
   <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 207</value>
+    <value>16, 191</value>
   </data>
   <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 41</value>
+    <value>62, 38</value>
   </data>
   <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -276,7 +381,7 @@
     <value>7, 4</value>
   </data>
   <data name="buttonFresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="buttonFresh.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -301,10 +406,10 @@
     <value>NoControl</value>
   </data>
   <data name="buttonSelectAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 34</value>
+    <value>7, 31</value>
   </data>
   <data name="buttonSelectAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="buttonSelectAll.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -331,10 +436,10 @@
     <value>NoControl</value>
   </data>
   <data name="buttonSelectFirst20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 62</value>
+    <value>7, 57</value>
   </data>
   <data name="buttonSelectFirst20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="buttonSelectFirst20.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -358,10 +463,10 @@
     <value>NoControl</value>
   </data>
   <data name="buttonDownload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 137</value>
+    <value>7, 126</value>
   </data>
   <data name="buttonDownload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 64</value>
+    <value>75, 59</value>
   </data>
   <data name="buttonDownload.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -385,10 +490,10 @@
     <value>NoControl</value>
   </data>
   <data name="buttonSelectNone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 91</value>
+    <value>7, 84</value>
   </data>
   <data name="buttonSelectNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 21</value>
   </data>
   <data name="buttonSelectNone.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -408,27 +513,6 @@
   <data name="&gt;&gt;buttonSelectNone.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="panelFormMainButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 27</value>
-  </data>
-  <data name="panelFormMainButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 267</value>
-  </data>
-  <data name="panelFormMainButton.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;panelFormMainButton.Name" xml:space="preserve">
-    <value>panelFormMainButton</value>
-  </data>
-  <data name="&gt;&gt;panelFormMainButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelFormMainButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelFormMainButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="backWorkerGetVoaList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>8, 26</value>
   </metadata>
@@ -436,10 +520,10 @@
     <value>True</value>
   </data>
   <data name="checkedListBoxMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 29</value>
+    <value>9, 27</value>
   </data>
   <data name="checkedListBoxMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 259</value>
+    <value>311, 228</value>
   </data>
   <data name="checkedListBoxMain.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -466,10 +550,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>413, 321</value>
+    <value>413, 296</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2752,9 +2836,6 @@
         AAf8AAAH/AAAB/wAAAf8AAAH/AAAB/4AAA/+AAAP/4AAH//4A////////////w==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
     <value>300, 200</value>
   </data>
@@ -2762,7 +2843,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>VOA自动下载器</value>
+    <value>VOA自动下载器V1.4 20130219</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItemConfig.Name" xml:space="preserve">
     <value>toolStripMenuItemConfig</value>
